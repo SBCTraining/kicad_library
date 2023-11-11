@@ -5,20 +5,20 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "wire_pad:wire_pad" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 3.81 0) (do_not_autoplace)
+    (symbol "jack_pad:jack_pad" (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 2.54 0) (do_not_autoplace)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (at 0 0 0)
+      (property "Footprint" "Library:jack_pad" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "wire_pad_1_1"
+      (symbol "jack_pad_1_1"
         (pin input line (at 0 0 0) (length 2.54)
           (name "pad" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -28,22 +28,22 @@
   )
 
 
-  (symbol (lib_id "wire_pad:wire_pad") (at 130.81 45.72 0) (unit 1)
+  (symbol (lib_id "jack_pad:jack_pad") (at 143.51 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 39e654a7-1508-4c5e-b1f8-3c1b9e0b507d)
-    (property "Reference" "U1" (at 130.81 41.91 0) (do_not_autoplace)
+    (uuid 8e3fa477-27a1-48b9-a858-9dacbb3fec40)
+    (property "Reference" "U1" (at 143.51 91.44 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 130.81 45.72 0)
+    (property "Value" "~" (at 143.51 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 130.81 45.72 0)
+    (property "Footprint" "Library:jack_pad" (at 143.51 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 130.81 45.72 0)
+    (property "Datasheet" "" (at 143.51 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4c1a703-715b-42b3-bda7-bb28e4befe3f))
+    (pin "1" (uuid 78caf4b1-7e0d-479c-8da8-775173c49188))
     (instances
       (project "kicad_library"
         (path "/187cd165-a145-4c34-82ff-b940576a2f8e"
