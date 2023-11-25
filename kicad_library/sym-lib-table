@@ -1,5 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "wire_pad")(type "KiCad")(uri "${KIPRJMOD}/symbols/wire_pad.kicad_sym")(options "")(descr ""))
-  (lib (name "jack_pad")(type "KiCad")(uri "${KIPRJMOD}/symbols/jack_pad.kicad_sym")(options "")(descr ""))
+  (lib (name "SBC_wire_pad")(type "KiCad")(uri "${KIPRJMOD}/symbols/wire_pad.kicad_sym")(options "")(descr ""))
+  (lib (name "SBC_jack_pad")(type "KiCad")(uri "${KIPRJMOD}/symbols/jack_pad.kicad_sym")(options "")(descr ""))
+  (lib (name "SBC_PTC_FUSE")(type "KiCad")(uri "${KIPRJMOD}/symbols/0ZCH0050FF2G.kicad_sym")(options "0ZCH0050FF2G")(descr "PTC RESET FUSE 16V 500MA 1210 - https://www.digikey.com/en/models/4156298"))
 )
